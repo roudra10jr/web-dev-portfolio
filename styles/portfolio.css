@@ -30,7 +30,7 @@
     border: none;
 }
 .section-title{
-   background-size: 35px;
+   font-size: 35px;
    font-weight: bold;
    color: #181818; 
 }
@@ -148,4 +148,45 @@ main section{
     border-radius: 5px;
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* resume styles */
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+.experience-title{
+    font-size: 25px;
+    color: #474747;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.experience-subtitle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 500;
+}
+.resume hr{
+    margin: 30px 0px 30px 0px;
+    color: #D1D1D1;
+    
+}
+.button-container{
+    margin-top: 50px;
+
 }
